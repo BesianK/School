@@ -1,0 +1,28 @@
+.review {
+  background-color: #363636;
+  background-image: linear-gradient(to right, Black , rgb(80, 80, 80) );
+  padding: 2%;
+  margin: 20px 20%;
+  text-align: left;
+  border-radius: 30px;
+  color: rgb(199, 199, 199);
+}
+ .reviewer {
+  font-size: smaller;
+  color: rgb(240, 189, 94);
+}
+ .review-title {
+  font-size: large;
+  font-weight: bold;
+  color: red;
+  margin: 5px 0;
+}
+ .review-text {
+  color: rgb(97, 204, 236);
+  margin: 20px 0;
+}
+ .review-date {
+  color: rgb(199, 199, 199);
+  font-size: small;
+  margin: 5px 0;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tables</title>
+  <link rel="shortcut icon" href="images/favicon.ico" alt="Icon" />
+  <style>
+    img {
+      width: 100%;
+    }
+
+    table#complex-table,
+    th,
+    td {
+      border: 1px solid black;
+      text-align: center;
+    }
+
+    table#complex-table tr:nth-child(even) {
+      background-color: #eee;
+    }
+
+    table#complex-table tr:nth-child(odd) {
+      background-color: #fff;
+    }
+
+    table#complex-table th {
+      color: white;
+      background-color: black;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+    }
+
+    li {
+      float: left;
+      padding-left: 30%;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111111;
+    }
+  </style>
+</head>
+
+<header style="text-align:center;">
+  <img src="images/bucketHead.jpg" alt="Bucket Head" />
+  <h1 style="font-size:5vw">Besian's Tables Page</h1>
+  <hr />
+  <ul>
+    <li><a href=index.html>Home</a></li>
+    <li><a href=aboutme.html>About Me</a></li>
+  </ul>
+</header>
+<hr />
+
+<body style="text-align:center;">
+  <p>
+    <b>Here's a Simple Table</b>
+    <table id=”simple-table” align="center">
+      <tr>
+        <th></th>
+        <th scope="col">Saturday</th>
+        <th scope="col">Sunday</th>
+      </tr>
+      <tr>
+        <th scope="row">Tickets sold</th>
+        <td>120</td>
+        <td>135</td>
+      </tr>
+    </table>
+  </p>
+  <p>
+    <b>Here's a Complex Table</b>
+    <table id="complex-table" style="width:45%" cellpadding="10" cellspacing="10" align="center">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>Besian</td>
+          <td>Kodra</td>
+          <td>125</td>
+        </tr>
+        <tr>
+          <td>Eli</td>
+          <td>Hurst</td>
+          <td>12</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="3">This Table Rocks</th>
+        </tr>
+      </tfoot>
+    </table>
+  </p>
+</body>
+<hr />
+<footer style="text-align:center;">
+  <ul>
+    <li><a href=index.html>Home</a></li>
+    <li><a href=aboutme.html>About Me</a></li>
+  </ul>
+  <hr />
+  <h3 style="font-size:2vw">Assignment 2 || Besian Kodra</h3>
+</footer>
+
+</html>
